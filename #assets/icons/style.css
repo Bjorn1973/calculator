@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-library {
-  width: 1.0625em;
+.icon-user {
+  width: 0.7138671875em;
+}
+
+.icon-dollar {
+  width: 0.5693359375em;
 }

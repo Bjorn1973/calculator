@@ -8,12 +8,21 @@ html {
   font-size: 62.5%;
 }
 
-$oranje: orange;
+$strongcyan: hsl(172, 67%, 45%);
+$verydarkcyan: hsl(183, 100%, 45%);
+$darkgrayishcyan: hsl(186, 14%, 43%);
+$grayishcyan: hsl(184, 14%, 56%);
+$lightgrayishcyan: hsl(185, 41%, 84%);
+$verylightgrayishcyan: hsl(189, 41%, 97%);
+$white: white;
+
 body {
   margin: 10px;
-}
-h1 {
-  color: $oranje;
-  font-size: 30px;
-  margin: 50px 0;
+  background-color: $white;
+  padding: 135px, 170px;
+  div {
+    background-color: $lightgrayishcyan;
+    padding-right: 79px;
+    padding-left: 79px;
+  }
 }
