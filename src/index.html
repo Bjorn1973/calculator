@@ -14,32 +14,32 @@
       <div class="container">
         <form action="" class="input">
           <label for="amount">Bill</label>
-          <i class="amount-logo">
-            <svg class="icon icon-user">
-              <use
-                xlink:href="
-              ./icons/symbol-defs.svg#icon-dollar"
-              ></use>
-            </svg>
-          </i>
-          <input type="number" name="amount" class="amount" />
+          <div>
+            <i class="amount-logo">
+              <svg class="icon icon-dollar">
+                <use href="#icon-dollar" />
+              </svg>
+            </i>
+            <input type="number" name="amount" class="amount" />
+          </div>
           <label for="percent">Select Tip %</label>
-          <button class="percent">5%</button>
-          <button class="percent">10%</button>
-          <button class="percent">15%</button>
-          <button class="percent">25%</button>
-          <button class="percent">50%</button>
-          <button class="percent">Custom</button>
+          <div class="btn">
+            <button class="percent">5%</button>
+            <button class="percent">10%</button>
+            <button class="percent">15%</button>
+            <button class="percent">25%</button>
+            <button class="percent">50%</button>
+            <button class="percent">Custom</button>
+          </div>
           <label for="people">Number of People</label>
-          <i
-            ><svg class="icon icon-dollar">
-              <use
-                xlink:href="
-            ./icons/symbol-defs.svg#icon-user"
-              ></use>
-            </svg>
-          </i>
-          <input type="number" name="people" class="people" />
+          <div>
+            <i
+              ><svg class="icon icon-user">
+                <use href="#icon-user" />
+              </svg>
+            </i>
+            <input type="number" name="people" class="people" />
+          </div>
         </form>
         <form action="" class="output">
           <label for="tip amount">Tip Amount /person</label>
