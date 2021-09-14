@@ -9,7 +9,47 @@
   </head>
   <body>
     <include src="./symbol-defs.svg"></include>
-    <div>tekst</div>
+    <div class="bg">
+      <img src="./images/logo.svg" alt="" />
+      <div class="container">
+        <form action="" class="input">
+          <label for="amount">Bill</label>
+          <i class="amount-logo">
+            <svg class="icon icon-user">
+              <use
+                xlink:href="
+              ./icons/symbol-defs.svg#icon-dollar"
+              ></use>
+            </svg>
+          </i>
+          <input type="number" name="amount" class="amount" />
+          <label for="percent">Select Tip %</label>
+          <button class="percent">5%</button>
+          <button class="percent">10%</button>
+          <button class="percent">15%</button>
+          <button class="percent">25%</button>
+          <button class="percent">50%</button>
+          <button class="percent">Custom</button>
+          <label for="people">Number of People</label>
+          <i
+            ><svg class="icon icon-dollar">
+              <use
+                xlink:href="
+            ./icons/symbol-defs.svg#icon-user"
+              ></use>
+            </svg>
+          </i>
+          <input type="number" name="people" class="people" />
+        </form>
+        <form action="" class="output">
+          <label for="tip amount">Tip Amount /person</label>
+          <input type="text" name="tip amount" class="tipAmount" />
+          <label for="total">Total /person</label>
+          <input type="text" name="total" class="total" />
+          <button>RESET</button>
+        </form>
+      </div>
+    </div>
     <script src="./js/index.js"></script>
   </body>
 </html>

@@ -20,9 +20,33 @@ body {
   margin: 10px;
   background-color: $white;
   padding: 135px, 170px;
-  div {
+  div.bg {
+    margin: 0 auto;
     background-color: $lightgrayishcyan;
     padding-right: 79px;
     padding-left: 79px;
+    padding-top: 125px;
+    padding-bottom: 180px;
+    margin: 0, auto;
+    max-height: 782px;
+    max-width: 1102px;
+    img {
+      display: block;
+      margin: 0px auto 64px auto;
+      width: 67px;
+      height: 45px;
+    }
+    .container {
+      width: 705px;
+      height: 368px;
+      background-color: $white;
+      margin: 0 auto;
+      border-radius: 15px;
+      @include make-col(2, 0px);
+      .input {
+        @include flex(column, space-between, start);
+        padding: 38px 38px 38px 38px;
+      }
+    }
   }
 }
